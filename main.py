@@ -42,7 +42,7 @@ n = int(raw_input())
 for i in xrange(0,n):
     dict.append(raw_input().split())
     print "Case #" + str(i + 1) + ": " + str(swap(int(dict[i][0]), dict[i][1]))
-#print "Case #" + str(i + 1) + ": " + str(swap(int(dict[i][0]), dict[i][1]))
+
 
 
 
